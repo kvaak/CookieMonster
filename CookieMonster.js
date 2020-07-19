@@ -25,7 +25,7 @@ CM.Sim = {};
 CM.Cache.AddQueue = function() {
 	CM.Cache.Queue = document.createElement('script');
 	CM.Cache.Queue.type = 'text/javascript';
-	CM.Cache.Queue.setAttribute('src', 'https://kvaak.github.io/CookieMonsterBok/queue/queue.js');
+	CM.Cache.Queue.setAttribute('src', 'https://kvaak.github.io/CookieMonsterBork/queue/queue.js');
 	document.head.appendChild(CM.Cache.Queue);
 }
 
@@ -824,7 +824,7 @@ CM.Disp.GetConfigDisplay = function(config) {
 CM.Disp.AddJscolor = function() {
 	CM.Disp.Jscolor = document.createElement('script');
 	CM.Disp.Jscolor.type = 'text/javascript';
-	CM.Disp.Jscolor.setAttribute('src', 'https://kvaak.github.io/CookieMonsterBok/jscolor/jscolor.js');
+	CM.Disp.Jscolor.setAttribute('src', 'https://kvaak.github.io/CookieMonsterBork/jscolor/jscolor.js');
 	document.head.appendChild(CM.Disp.Jscolor);
 }
 
@@ -1429,10 +1429,10 @@ CM.Disp.CreateFavicon = function() {
 CM.Disp.UpdateFavicon = function() {
 	if (CM.Config.Favicon == 1 && CM.Disp.lastGoldenCookieState) {
 		if (CM.Disp.goldenShimmer.wrath) {
-			CM.Disp.Favicon.href = 'https://kvaak.github.io/CookieMonsterBok/favicon/wrathCookie.ico';
+			CM.Disp.Favicon.href = 'https://kvaak.github.io/CookieMonsterBork/favicon/wrathCookie.ico';
 		}
 		else {
-			CM.Disp.Favicon.href = 'https://kvaak.github.io/CookieMonsterBok/favicon/goldenCookie.ico';
+			CM.Disp.Favicon.href = 'https://kvaak.github.io/CookieMonsterBork/favicon/goldenCookie.ico';
 		}
 	}
 	else {
